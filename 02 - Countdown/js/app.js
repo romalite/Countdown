@@ -1,7 +1,7 @@
 const items = document.querySelectorAll(".countdown-item > h4");
 const countdownElement = document.querySelector(".countdown");
 // Assigning a reporting point
-let countdownDate = new Date(2025, 1,28, 16, 6, 0).getTime();
+let countdownDate = new Date(2025, 5,25, 16, 6, 0).getTime();
 
 function getCountDownTime() {
     // get current time
